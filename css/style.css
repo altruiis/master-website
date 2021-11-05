@@ -31,8 +31,8 @@ footer {
 
 .column.middle {
   width: 50%;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .row:after {
