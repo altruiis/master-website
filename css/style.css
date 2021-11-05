@@ -35,6 +35,15 @@ footer {
   margin-right: 25px;
 }
 
+.column.side.advertisementIMG {
+background-image: url('../images/advertisement.png');
+border-style:dashed;
+border-radius:12px;
+padding:5px;
+height: 400px;
+width: 245px;
+}
+
 .row:after {
   content: "";
   display: table;
