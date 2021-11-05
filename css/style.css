@@ -10,13 +10,13 @@ body  {
 }
 footer {
   background-color: #05162a;
-    color: white;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
-    overflow: hidden;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .column {
@@ -64,6 +64,13 @@ li a {
 li a:hover {
   background-color: #555;
   color: white;
+}
+
+.navigationUL {
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  width:auto;
 }
 
 .headerText {
