@@ -27,15 +27,17 @@
         <p>This is where I will write about my bot or something, I am not exactly sure what the goal here is. However, as I go on in this awful process of HTML bull crap I will figure it all out.
       </div>
 
-      <div class="column side" style="border-style:dashed;border-radius:12px;padding:5px;">
+      <div class="column side" style="border-style:dashed;border-radius:12px;padding:5px;height:500px">
         <h2 style="text-align: center;">Some other content here.</h2>
-
+        <textarea id="chatlog" rows="25" cols="32" readonly></textarea>
+        <input type="string" id="messagetbox" onkeydown="onKeyDown()"></input>
+         <button onclick="sendMessage()">Send</button>
       </div>
     </div>
-
 
     <footer>
       <h3 class="footerText">Mastergle#4874</h3>
     </footer>
+    <script src="javascript/webhook.js"></script>
   </body>
 </html>
