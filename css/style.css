@@ -9,9 +9,9 @@ body  {
   color: white;
 }
 footer {
+  margin-top: 110px;
   background-color: #05162a;
   color: white;
-  position: absolute;
   left: 0;
   bottom: 0;
   height: 50px;
