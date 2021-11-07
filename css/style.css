@@ -100,3 +100,13 @@ li a:hover {
   margin-left: 15px;
   color: white;
 }
+
+.newsDiv {
+  border: 2px outset pink;
+  border-radius: 5px;
+  padding-bottom: 15px;
+}
+
+.newsDivText {
+  padding-left: 15px;
+}
