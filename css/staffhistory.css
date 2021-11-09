@@ -10,6 +10,8 @@
 }
 
 .containerTab {
+  margin-top: 25px;
+  margin-bottom: 25px;
  padding: 20px;
  color: white;
 }
