@@ -80,6 +80,7 @@ li a:hover {
   margin-left:auto;
   margin-right:auto;
   width:auto;
+  cursor:pointer;
 }
 
 .headerText {
