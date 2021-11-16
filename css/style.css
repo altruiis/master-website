@@ -52,10 +52,15 @@ margin-bottom: 115px;
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
   .column.side, .column.middle {
     width: 100%;
   }
+  #content-desktop {display: none;}
+  #content-mobile {display: block;}
 }
 
 ul {
