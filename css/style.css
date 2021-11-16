@@ -55,9 +55,12 @@ margin-bottom: 115px;
 #content-desktop {display: block;}
 #content-mobile {display: none;}
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 786px) {
   .column.side, .column.middle {
     width: 100%;
+  }
+  button {
+      font-size: 200%;
   }
   #content-desktop {display: none;}
   #content-mobile {display: block;}
