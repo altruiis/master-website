@@ -13,7 +13,7 @@ footer {
   background-color: #05162a;
   color: white;
   left: 0;
-  position: sticky;
+  position: fixed;
   bottom:0;
   height: 50px;
   width: 100%;
@@ -118,4 +118,20 @@ li a:hover {
 
 .newsDivText {
   padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menuButton {
+  vertical-align: top;
+  position: absolute;
+  top: 15px;
+right: 25px;
+  width:50px;
+  height:50px;
+  color: gray;
+  display: inline-block;
+}
+
+.menuButton:hover {
+  cursor:pointer;
 }
