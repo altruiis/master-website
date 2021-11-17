@@ -28,12 +28,13 @@ footer {
 
 .column.side {
   margin-top: 75px;
+  margin-left: 5px;
   width: 20%;
 }
 
 .column.middle {
   width: 70%;
-  margin-left: 25px;
+  margin-left: 30px;
   margin-right: 25px;
 }
 
@@ -56,16 +57,6 @@ margin-bottom: 115px;
 #content-desktop {display: block;}
 #content-mobile {display: none;}
 
-@media screen and (max-width: 786px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
-  button {
-      font-size: 150%;
-  }
-  #content-desktop {display: none;}
-  #content-mobile {display: block;}
-}
 
 ul {
   list-style-type: none;
