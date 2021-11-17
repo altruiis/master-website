@@ -58,10 +58,8 @@ margin-bottom: 115px;
 #content-mobile {display: none;}
 
 @media screen and (max-width: 1200px) {
-  .dropnav {
-    font-size: 500%;
-    width: auto;
-    overflow: auto;
+  .dropnavPC, .dropnavPC:hover {
+    display:hidden;
   }
   .column.side, .column.middle {
     width: 100%;
@@ -131,7 +129,8 @@ li a:hover {
   padding-right: 15px;
 }
 
-.dropnav {
+
+.dropnavPC {
   display:none;
   border: 2px solid gray;
   background-color: #05162a;
@@ -139,6 +138,19 @@ li a:hover {
   right: -15px;
   top: 35px;
   width: 600%;
+  border-radius:12px;
+  padding:5px;
+}
+
+.dropnavMOBILE {
+  display:none;
+  border: 2px solid gray;
+  background-color: #05162a;
+  position: absolute;
+  right: -15px;
+  top: 35px;
+  width: 1200%;
+  font-size:500%;
   border-radius:12px;
   padding:5px;
 }
@@ -154,7 +166,7 @@ li a:hover {
   display: inline-block;
 }
 
-.menuButton:hover .dropnav {
+.menuButton:hover .dropnavPC {
   display:block;
   cursor:pointer;
 }
