@@ -61,6 +61,11 @@ margin-bottom: 115px;
   .column.side, .column.middle {
     width: 100%;
   }
+  .dropnav {
+        width: auto;
+    font-size: 200%;
+    overflow: auto;
+  }
   button {
       font-size: 150%;
   }
