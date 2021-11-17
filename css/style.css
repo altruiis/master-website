@@ -57,6 +57,16 @@ margin-bottom: 115px;
 #content-desktop {display: block;}
 #content-mobile {display: none;}
 
+@media screen and (max-width: 1200px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+  button {
+      font-size: 150%;
+  }
+  #content-desktop {display: none;}
+  #content-mobile {display: block;}
+}
 
 ul {
   list-style-type: none;
