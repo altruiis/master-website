@@ -7,6 +7,7 @@ header {
 body  {
   background:#36393E;
   color: white;
+  margin-bottom: 75px;
 }
 footer {
   margin-top: 110px;
@@ -31,7 +32,7 @@ footer {
 }
 
 .column.middle {
-  width: 50%;
+  width: 70%;
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -60,7 +61,7 @@ margin-bottom: 115px;
     width: 100%;
   }
   button {
-      font-size: 200%;
+      font-size: 150%;
   }
   #content-desktop {display: none;}
   #content-mobile {display: block;}
@@ -70,13 +71,13 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: auto;
 }
 
 li a {
   display: block;
   color: white;
-  padding: 8px 16px;
+  padding: 8px 8px;
   text-decoration: none;
 }
 
@@ -115,8 +116,8 @@ li a:hover {
 .newsDiv {
   border: 2px outset pink;
   border-radius: 5px;
-  padding-bottom: 15px;
-  margin-bottom: 25px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .newsDivText {
@@ -124,17 +125,30 @@ li a:hover {
   padding-right: 15px;
 }
 
+.dropnav {
+  display:none;
+  border: 2px solid gray;
+  background-color: #05162a;
+  position: absolute;
+  right: -15px;
+  top: 35px;
+  width: 600%;
+  border-radius:12px;
+  padding:5px;
+}
+
 .menuButton {
   vertical-align: top;
   position: absolute;
   top: 15px;
-right: 25px;
+  right: 25px;
   width:50px;
-  height:50px;
+  height:35px;
   color: gray;
   display: inline-block;
 }
 
-.menuButton:hover {
+.menuButton:hover .dropnav {
+  display:block;
   cursor:pointer;
 }
