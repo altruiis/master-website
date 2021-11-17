@@ -61,6 +61,9 @@ margin-bottom: 115px;
   .dropnavPC, .dropnavPC:hover {
     display:hidden;
   }
+  .dropnavMOBILE, .dropnavMOBILE:hover {
+    display:block;
+  }
   .column.side, .column.middle {
     width: 100%;
   }
