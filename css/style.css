@@ -58,13 +58,13 @@ margin-bottom: 115px;
 #content-mobile {display: none;}
 
 @media screen and (max-width: 1200px) {
+  .dropnav {
+    font-size: 500%;
+    width: auto;
+    overflow: auto;
+  }
   .column.side, .column.middle {
     width: 100%;
-  }
-  .dropnav {
-        width: auto;
-    font-size: 200%;
-    overflow: auto;
   }
   button {
       font-size: 150%;
