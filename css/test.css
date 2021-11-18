@@ -69,12 +69,12 @@
 }
 
 .mobilebtn {
-  height: 150px;
+  height: 125px;
   width: 150px;
   border: 1px solid gray;
   background: white;
   border-radius: 12px;
-  font-size: 300%;
+  font-size: 250%;
 }
 
 .mobilebtn:hover {
