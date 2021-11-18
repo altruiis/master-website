@@ -1,6 +1,3 @@
-#mobile {display: none;}
-#desktop {display: block;}
-
 /* #### Mobile Phones Portrait #### */
 @media screen and (max-device-width: 480px) and (orientation: portrait){
   /* some CSS here */
@@ -31,9 +28,8 @@
   body {
     background-color: lime;
   }
-  .navbutton {
-    font-size: 250%;
-  }
+  #mobile {display: block;}
+  #desktop {display: none;}
 }
 
 /* #### iPhone 5 Portrait or Landscape #### */
@@ -66,9 +62,8 @@
   body {
     background-color: green;
   }
-  .navbutton {
-    font-size: 100%;
-  }
+  #mobile {display: none;}
+  #desktop {display: block;}
 }
 
 .mobilebtn {
