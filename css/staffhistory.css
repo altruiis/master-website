@@ -26,9 +26,6 @@
   h1 {
         font-size: 350%;
   }
-  .footerText {
-    font-size: 250%;
-  }
   #mobile {display: block;}
   #desktop {display: none;}
 }
