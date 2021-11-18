@@ -1,35 +1,27 @@
 /* #### Mobile Phones Portrait #### */
 @media screen and (max-device-width: 480px) and (orientation: portrait){
   /* some CSS here */
-  body {
-    background-color: pink;
-  }
+
 }
 
 /* #### Mobile Phones Landscape #### */
 @media screen and (max-device-width: 640px) and (orientation: landscape){
   /* some CSS here */
-  body {
-    background-color: orange;
-  }
+
 }
 
 /* #### Mobile Phones Portrait or Landscape #### */
 @media screen and (max-device-width: 640px){
   /* some CSS here */
-  body {
-    background-color: purple;
-  }
+
 }
 
 /* #### iPhone 4+ Portrait or Landscape #### */
 @media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
   /* some CSS here */
-  body {
-    background-color: lime;
-  }
+
   .containerTab {
-     font-size: 285%;
+     font-size: 275%;
   }
   #mobile {display: block;}
   #desktop {display: none;}
@@ -38,33 +30,25 @@
 /* #### iPhone 5 Portrait or Landscape #### */
 @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
   /* some CSS here */
-  body {
-    background-color: blue;
-  }
+
 }
 
 /* #### iPhone 6 and 6 plus Portrait or Landscape #### */
 @media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3){
   /* some CSS here */
-  body {
-    background-color: yellow;
-  }
+
 }
 
 /* #### Tablets Portrait or Landscape #### */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px){
   /* some CSS here */
-  body {
-    background-color: red;
-  }
+
 }
 
 /* #### Desktops #### */
 @media screen and (min-width: 1024px){
   /* some CSS here */
-  body {
-    background-color: green;
-  }
+
   .containerTab {
      font-size: 125%;
   }
@@ -96,7 +80,7 @@
 
 .deskbtn {
   padding: 5px 10px;
-  font-size: 150%;
+  font-size: 100%;
 }
 
 /* The grid: Three equal columns that floats next to each other */
