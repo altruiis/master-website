@@ -28,6 +28,9 @@
   body {
     background-color: lime;
   }
+  .navbutton {
+    font-size: 250%;
+  }
 }
 
 /* #### iPhone 5 Portrait or Landscape #### */
@@ -59,5 +62,8 @@
   /* some CSS here */
   body {
     background-color: green;
+  }
+  .navbutton {
+    font-size: 100%;
   }
 }
