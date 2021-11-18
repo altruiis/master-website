@@ -28,6 +28,9 @@
   body {
     background-color: lime;
   }
+  .containerTab {
+     font-size: 250%;
+  }
   #mobile {display: block;}
   #desktop {display: none;}
 }
@@ -61,6 +64,9 @@
   /* some CSS here */
   body {
     background-color: green;
+  }
+  .containerTab {
+     font-size: 125%;
   }
   #mobile {display: none;}
   #desktop {display: block;}
