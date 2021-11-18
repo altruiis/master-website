@@ -23,6 +23,9 @@
   .containerTab {
      font-size: 275%;
   }
+  h1 {
+        font-size: 350%;
+  }
   #mobile {display: block;}
   #desktop {display: none;}
 }
@@ -51,6 +54,9 @@
 
   .containerTab {
      font-size: 125%;
+  }
+  h1 {
+        font-size: 200%;
   }
   #mobile {display: none;}
   #desktop {display: block;}
