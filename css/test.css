@@ -70,11 +70,14 @@
 
 .mobilebtn {
   height: 125px;
-  width: 150px;
+  width: 225px;
   border: 1px solid gray;
   background: white;
   border-radius: 12px;
   font-size: 250%;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .mobilebtn:hover {
