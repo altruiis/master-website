@@ -136,7 +136,7 @@ li a:hover {
   width: 600%;
   border-radius:12px;
   padding:5px;
-  text-align:center;
+  text-align:left;
 }
 
 .dropnavMOBILE {
@@ -150,7 +150,7 @@ li a:hover {
   border-radius:12px;
   padding:5px;
   font-size: 300%;
-   text-align: center;
+   text-align: right;
 }
 
 .menuButton {
