@@ -1,4 +1,5 @@
 //Controls the navigation bar.
 function openNavBar() {
-  document.getElementsByClassName("navigationBoxMOBILE").style.display = "block";
+  window.alert("Opening via JS.")
+document.getElementById("navigationBoxMOBILE").style.display = "block"; 
 }
