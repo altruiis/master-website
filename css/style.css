@@ -164,7 +164,7 @@ li a:hover {
   display: inline-block;
 }
 
-.menuButton:hover .dropnavPC {
+.menuButton:hover .dropnavMOBILE {
   display:block;
   cursor:pointer;
 }
